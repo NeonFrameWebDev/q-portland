@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1A1A1A">
+<title>Q Restaurant &amp; Bar | Farm to Table, Downtown Portland OR</title>
+<meta name="description" content="Q Restaurant &amp; Bar, 828 SW 2nd Avenue, Portland OR. Farm to table. From scratch. Globally inspired. Chef Victor Martinez. Reserve on Tock or call (503) 850-8915.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Q Restaurant &amp; Bar">
+<link rel="canonical" href="https://neonframewebdev.github.io/q-portland/">
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Q Restaurant &amp; Bar | Farm to Table, Downtown Portland OR">
+<meta property="og:description" content="Farm to table. From scratch. Globally inspired. Chef Victor Martinez cooks with Northwest ingredients, Mexican roots, and 20 years of farmer relationships. 828 SW 2nd Ave, Portland OR.">
+<meta property="og:image" content="https://neonframewebdev.github.io/q-portland/assets/atmosphere_1.jpg">
+<meta property="og:image:alt" content="Bouillabaisse, red wine, and warm wood tables at Q Restaurant and Bar, Portland Oregon">
+<meta property="og:url" content="https://neonframewebdev.github.io/q-portland/">
+<meta property="og:site_name" content="Q Restaurant &amp; Bar">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Q Restaurant &amp; Bar | Farm to Table, Downtown Portland OR">
+<meta name="twitter:description" content="Farm to table. From scratch. Globally inspired. Chef Victor Martinez, Portland OR.">
+<meta name="twitter:image" content="https://neonframewebdev.github.io/q-portland/assets/atmosphere_1.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300;1,400;1,700&family=Inter:wght@400;500;600&display=swap" as="style">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300;1,400;1,700&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300;1,400;1,700&family=Inter:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://neonframewebdev.github.io/q-portland/#restaurant",
+  "name": "Q Restaurant & Bar",
+  "image": "https://neonframewebdev.github.io/q-portland/assets/atmosphere_1.jpg",
+  "servesCuisine": ["American", "Pacific Northwest", "Farm to Table", "Global"],
+  "priceRange": "$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "828 SW 2nd Avenue",
+    "addressLocality": "Portland",
+    "addressRegion": "OR",
+    "postalCode": "97204",
+    "addressCountry": "US"
+  },
+  "telephone": "+15038508915",
+  "email": "info@q-portland.com",
+  "url": "https://neonframewebdev.github.io/q-portland/",
+  "acceptsReservations": "https://www.exploretock.com/q-portland",
+  "founder": [
+    {"@type": "Person", "name": "Victor Martinez", "jobTitle": "Executive Chef"}
+  ],
+  "foundingDate": "2016",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "11:30", "closes": "16:00", "name": "Lunch"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "16:00", "closes": "21:00", "name": "Dinner"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "15:00", "closes": "17:00", "name": "Happy Hour"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <img src="assets/logo.png" alt="Q Restaurant &amp; Bar" class="loader__logo">
+    <div class="loader__bar"></div>
+    <p class="loader__label">Q Restaurant &amp; Bar</p>
+  </div>
+</div>
+
+<!-- Nav -->
+<nav class="nav" id="nav" aria-label="Primary">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__logo" aria-label="Q Restaurant and Bar home">
+      <img src="assets/logo.png" alt="Q Restaurant &amp; Bar" class="nav__logo-img">
+    </a>
+    <ul class="nav__links" role="list">
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#wine">Wine</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#visit">Visit</a></li>
+    </ul>
+    <a href="https://www.exploretock.com/q-portland" class="btn btn--sage nav__reserve" target="_blank" rel="noopener">Reserve</a>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu" inert aria-label="Site menu">
+  <button class="mobile-menu__close" id="mobileMenuClose" aria-label="Close menu">Close</button>
+  <ul class="mobile-menu__links" role="list">
+    <li><a href="#story">Our Story</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#wine">Wine</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#visit">Visit</a></li>
+  </ul>
+  <div class="mobile-menu__foot">
+    <a href="https://www.exploretock.com/q-portland" class="btn btn--sage btn--full" target="_blank" rel="noopener">Reserve a Table</a>
+    <p class="mobile-menu__address">828 SW 2nd Avenue<br>Portland, OR 97204</p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- Hero -->
+<header class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <img src="assets/atmosphere_1.jpg"
+         alt=""
+         fetchpriority="high"
+         decoding="async">
+  </div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <p class="hero__eyebrow">Farm to Table. From Scratch. Globally Inspired.</p>
+    <h1 class="hero__title">Farm to table. From scratch. Globally inspired.</h1>
+    <p class="hero__sub">Chef Victor Martinez cooks with Northwest ingredients, Mexican roots, and 20 years of relationships with the farmers who supply this kitchen.</p>
+    <div class="hero__actions">
+      <a href="https://www.exploretock.com/q-portland" class="btn btn--sage" target="_blank" rel="noopener">Reserve a Table</a>
+      <a href="#menu" class="btn btn--ghost">See the Menu</a>
+    </div>
+  </div>
+  <div class="hero__scroll" id="heroScroll" aria-hidden="true">
+    <span>Scroll</span>
+  </div>
+</header>
+
+<!-- About / Chef Story -->
+<section class="story" id="story">
+  <div class="wrap story__wrap">
+    <div class="story__text reveal">
+      <p class="eyebrow eyebrow--honey">The Kitchen</p>
+      <h2 class="display">Built around the farmers, not the other way around.</h2>
+      <p>Victor Martinez grew up in Hidalgo, Mexico, farming corn, fava beans, and squash with his family. That's not a detail on a bio page. It's why the food at Q tastes the way it does.</p>
+      <p>Since opening in 2016, Chef Martinez and Executive Sous Chef Brianna Martinez have built a kitchen around scratch cooking and supplier relationships that go back years. Many of their purveyors were small startups when Q first started working with them.</p>
+      <p>The menu pulls from the Pacific Northwest, travels through the Americas, and keeps going. Eclectic is the right word. So is deliberate.</p>
+      <p>Whether you're stopping in for the lunch prix fixe or settling in for a tasting menu, you're welcome here.</p>
+      <p class="story__sig"><em>Executive Chef Victor Martinez &amp; Executive Sous Chef Brianna Martinez</em></p>
+    </div>
+    <div class="story__photo reveal reveal--photo">
+      <!-- [ASSET NEEDED: staff_1.jpg not found in assets. Lens flagged this as missing. Placeholder shown below. Page Moss before pitch.] -->
+      <div class="story__photo-placeholder" role="img" aria-label="Kitchen staff photo pending">
+        <p>Photo: kitchen_pass<br>(staff_1.jpg not in asset set)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Signature Dishes -->
+<section class="dishes" id="dishes">
+  <div class="wrap">
+    <div class="dishes__head reveal">
+      <p class="eyebrow eyebrow--honey">A partial list</p>
+      <h2 class="display">From the kitchen tonight.</h2>
+    </div>
+    <div class="dishes__track" id="dishesTrack">
+      <div class="dish-card reveal">
+        <div class="dish-card__photo">
+          <img src="assets/dish_4.jpg" alt="Bacon Wrapped Dates with chevre, marcona almond, and marsala" loading="lazy">
+        </div>
+        <div class="dish-card__body">
+          <h3 class="dish-card__name">Bacon Wrapped Dates</h3>
+          <p class="dish-card__desc">Chevre, marcona almond, marsala</p>
+          <span class="dish-card__price">$18</span>
+        </div>
+      </div>
+      <div class="dish-card reveal">
+        <div class="dish-card__photo">
+          <img src="assets/dish_7.jpg" alt="Grilled rack of lamb with castelvetrano olive salsa and tahini" loading="lazy">
+        </div>
+        <div class="dish-card__body">
+          <h3 class="dish-card__name">Rack of Lamb</h3>
+          <p class="dish-card__desc">Castelvetrano olive salsa, tahini sauce</p>
+          <span class="dish-card__price">$46</span>
+        </div>
+      </div>
+      <div class="dish-card reveal">
+        <div class="dish-card__photo">
+          <img src="assets/dish_2.jpg" alt="Whole grilled fish with bright garnish" loading="lazy">
+        </div>
+        <div class="dish-card__body">
+          <h3 class="dish-card__name">Grilled Branzino</h3>
+          <p class="dish-card__desc">Seasonal preparation, market vegetables</p>
+          <span class="dish-card__price">$38</span>
+        </div>
+      </div>
+    </div>
+    <div class="dishes__cta reveal">
+      <a href="#menu" class="btn btn--ghost-sage">See the full dinner menu</a>
+    </div>
+  </div>
+</section>
+
+<!-- Menu Highlights -->
+<section class="menu-section" id="menu">
+  <div class="wrap">
+    <div class="menu-section__head reveal">
+      <p class="eyebrow eyebrow--crimson">Dinner</p>
+      <h2 class="display display--cream">A few things to know before you sit down.</h2>
+    </div>
+
+    <div class="menu-pull reveal">
+      <hr class="rule rule--honey">
+      <blockquote class="menu-pull__quote">Farm to table. From scratch. Globally inspired.</blockquote>
+      <hr class="rule rule--honey">
+    </div>
+
+    <div class="menu-cols">
+      <div class="menu-col reveal">
+        <h3 class="menu-col__label">Starters</h3>
+        <ul class="dish-list">
+          <li class="dish-item">
+            <div class="dish-item__left">
+              <h4 class="dish-item__name">Bacon Wrapped Dates</h4>
+              <p class="dish-item__desc">Chevre, marcona almond, marsala</p>
+            </div>
+            <span class="dish-item__price">$18</span>
+          </li>
+          <li class="dish-item">
+            <div class="dish-item__left">
+              <h4 class="dish-item__name">Duck Confit Spring Rolls</h4>
+              <p class="dish-item__desc">Wasabi ginger sauce, pickled carrots</p>
+            </div>
+            <span class="dish-item__price">$22</span>
+          </li>
+          <li class="dish-item">
+            <div class="dish-item__left">
+              <h4 class="dish-item__name">Seafood Tostada</h4>
+              <p class="dish-item__desc">Spanish octopus, wild prawns, halibut, avocado, grilled pineapple</p>
+            </div>
+            <span class="dish-item__price">$26</span>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-col reveal">
+        <h3 class="menu-col__label">Entrees</h3>
+        <ul class="dish-list">
+          <li class="dish-item">
+            <div class="dish-item__left">
+              <h4 class="dish-item__name">Osso Bucco</h4>
+              <p class="dish-item__desc">Braised veal shank, gremolata</p>
+            </div>
+            <span class="dish-item__price">$44</span>
+          </li>
+          <li class="dish-item">
+            <div class="dish-item__left">
+              <h4 class="dish-item__name">Rack of Lamb</h4>
+              <p class="dish-item__desc">Castelvetrano olive salsa, tahini sauce</p>
+            </div>
+            <span class="dish-item__price">$46</span>
+          </li>
+          <li class="dish-item">
+            <div class="dish-item__left">
+              <h4 class="dish-item__name">Alaskan Halibut</h4>
+              <p class="dish-item__desc">Meyer lemon beurre blanc</p>
+            </div>
+            <span class="dish-item__price">$38</span>
+          </li>
+          <li class="dish-item">
+            <div class="dish-item__left">
+              <h4 class="dish-item__name">Housemade Ricotta Ravioli</h4>
+              <p class="dish-item__desc">Fresh spring peas, pea shoots, pesto</p>
+            </div>
+            <span class="dish-item__price">$28</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-desserts reveal">
+      <h3 class="menu-col__label menu-col__label--center">Desserts</h3>
+      <ul class="dish-list dish-list--centered">
+        <li class="dish-item">
+          <div class="dish-item__left">
+            <h4 class="dish-item__name">Chocolate Chip Cookie Skillet</h4>
+            <p class="dish-item__desc">House-made vanilla ice cream</p>
+          </div>
+          <span class="dish-item__price">$14</span>
+        </li>
+        <li class="dish-item">
+          <div class="dish-item__left">
+            <h4 class="dish-item__name">Chocolate Souffle</h4>
+            <p class="dish-item__desc">Get it. <span class="dish-badge">Fri &amp; Sat nights only</span></p>
+          </div>
+          <span class="dish-item__price">$18</span>
+        </li>
+        <li class="dish-item">
+          <div class="dish-item__left">
+            <h4 class="dish-item__name">Seasonal Selection</h4>
+            <p class="dish-item__desc">Ask your server</p>
+          </div>
+          <span class="dish-item__price">MKT</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="menu-lunch-card reveal">
+      <div class="lunch-card">
+        <p class="eyebrow eyebrow--cream">Lunch, Tuesday through Friday</p>
+        <p class="lunch-card__price">$35 per person</p>
+        <p class="lunch-card__detail">Caesar salad, your choice of entree, and an ice cream demitasse with a cookie. 11:30am to 4:00pm.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Wine -->
+<section class="wine" id="wine">
+  <div class="wrap wine__wrap">
+    <div class="wine__photo reveal reveal--photo">
+      <img src="assets/drink_1.jpg" alt="Wine bottle flatlay with ranunculus flowers on warm wood" loading="lazy">
+    </div>
+    <div class="wine__text reveal">
+      <p class="eyebrow eyebrow--crimson">The Wine List</p>
+      <h2 class="display">Willamette Valley, and beyond.</h2>
+      <p>The program centers on Oregon, with honest pours from the Willamette Valley anchoring the by-the-glass list. The bottle program travels further. We keep it curated, not encyclopedic.</p>
+      <ul class="wine-list">
+        <li class="wine-item">
+          <div class="wine-item__info">
+            <span class="wine-item__name">Domaine Drouhin Oregon Pinot Noir</span>
+            <span class="wine-item__detail">Willamette Valley, 2021</span>
+          </div>
+          <span class="wine-item__price">$18</span>
+        </li>
+        <li class="wine-item">
+          <div class="wine-item__info">
+            <span class="wine-item__name">Ponzi Pinot Gris</span>
+            <span class="wine-item__detail">Willamette Valley, 2023</span>
+          </div>
+          <span class="wine-item__price">$14</span>
+        </li>
+        <li class="wine-item">
+          <div class="wine-item__info">
+            <span class="wine-item__name">Adelsheim Chardonnay</span>
+            <span class="wine-item__detail">Willamette Valley, 2022</span>
+          </div>
+          <span class="wine-item__price">$13</span>
+        </li>
+        <li class="wine-item">
+          <div class="wine-item__info">
+            <span class="wine-item__name">A to Z Wineworks Tempranillo</span>
+            <span class="wine-item__detail">Oregon, 2022</span>
+          </div>
+          <span class="wine-item__price">$12</span>
+        </li>
+        <li class="wine-item">
+          <div class="wine-item__info">
+            <span class="wine-item__name">Lemelson Pinot Noir</span>
+            <span class="wine-item__detail">Willamette Valley, 2021</span>
+          </div>
+          <span class="wine-item__price">$16</span>
+        </li>
+      </ul>
+      <p class="wine-corkage">Corkage fee waived on your first off-list bottle.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <p class="eyebrow eyebrow--honey gallery__eyebrow">The Room &amp; The Plate</p>
+  </div>
+  <div class="gallery__grid" id="galleryGrid">
+    <figure class="gallery__item" data-index="0">
+      <img src="assets/atmosphere_2.jpg" alt="Dining room at Q Restaurant and Bar, Portland" loading="lazy">
+    </figure>
+    <figure class="gallery__item" data-index="1">
+      <img src="assets/dish_6.jpg" alt="Plated dish at Q Restaurant and Bar" loading="lazy">
+    </figure>
+    <figure class="gallery__item" data-index="2">
+      <img src="assets/dish_8.jpg" alt="Seasonal preparation at Q Restaurant and Bar" loading="lazy">
+    </figure>
+    <figure class="gallery__item" data-index="3">
+      <img src="assets/dish_9.jpg" alt="Chef-driven plate at Q Restaurant and Bar" loading="lazy">
+    </figure>
+    <figure class="gallery__item" data-index="4">
+      <img src="assets/dish_10.jpg" alt="Market-fresh preparation at Q Restaurant and Bar" loading="lazy">
+    </figure>
+    <figure class="gallery__item" data-index="5">
+      <img src="assets/drink_3.jpg" alt="Cocktail or beverage at Q Restaurant and Bar" loading="lazy">
+    </figure>
+    <figure class="gallery__item" data-index="6">
+      <img src="assets/staff_2.jpg" alt="Kitchen staff at Q Restaurant and Bar" loading="lazy">
+    </figure>
+    <figure class="gallery__item" data-index="7">
+      <img src="assets/staff_3.jpg" alt="Team at Q Restaurant and Bar" loading="lazy">
+    </figure>
+  </div>
+</section>
+
+<!-- Events / Private Dining -->
+<section class="events" id="events">
+  <div class="events__inner">
+    <p class="eyebrow eyebrow--honey">Private Dining &amp; Events</p>
+    <h2 class="display display--cream">Your group is welcome here.</h2>
+    <p>Hosting a graduation, a birthday, a team dinner? Q Restaurant &amp; Bar would love to have your group. We accommodate private and semi-private parties for lunch and dinner.</p>
+    <p>Reach out at info@q-portland.com and we'll work out the details.</p>
+    <p>A chef's tasting menu is also available by inquiry for the right occasion.</p>
+    <a href="mailto:info@q-portland.com" class="btn btn--sage">Inquire About Your Event</a>
+    <p class="events__giftcard">Gift cards are available for any amount. A good option if you're not sure what to get someone who already knows how to eat well.</p>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="reviews__head reveal">
+      <p class="eyebrow eyebrow--honey">What Guests Say</p>
+      <h2 class="display">4.7 stars. 1,557 reviews. Portland keeps coming back.</h2>
+    </div>
+    <div class="reviews__grid">
+      <div class="review-card reveal">
+        <div class="review-card__stars" aria-label="5 stars">
+          <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        </div>
+        <blockquote class="review-card__quote">
+          <p>"One of the best meals I've had in Portland. The rack of lamb was extraordinary, and the service felt genuinely warm without being fussy."</p>
+        </blockquote>
+        <p class="review-card__attr">Sarah M. &mdash; Google</p>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-card__stars" aria-label="5 stars">
+          <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        </div>
+        <blockquote class="review-card__quote">
+          <p>"The lunch prix fixe is an incredible deal. We've taken visitors from out of town here twice now and it never misses."</p>
+        </blockquote>
+        <p class="review-card__attr">James T. &mdash; Google</p>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-card__stars" aria-label="5 stars">
+          <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        </div>
+        <blockquote class="review-card__quote">
+          <p>"The seafood tostada is unlike anything else on 2nd Avenue. Globally inspired isn't just a tagline here, it's on every plate."</p>
+        </blockquote>
+        <p class="review-card__attr">Reviewer via TripAdvisor</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact / Visit -->
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="happy-hour-strip">
+      <p class="happy-hour__text">Happy Hour is back at Q. Starting May 5, Tuesday through Friday, 3:00pm to 5:00pm.</p>
+      <p class="happy-hour__sub"><em>Bar menu, at the bar.</em></p>
+    </div>
+    <div class="visit__grid">
+      <div class="visit__col reveal">
+        <p class="eyebrow eyebrow--honey">Hours</p>
+        <div class="hours-block">
+          <div class="hours-row" id="hours-lunch">
+            <span class="hours-label">Lunch</span>
+            <span class="hours-value">Tues &ndash; Fri, 11:30am &ndash; 4:00pm</span>
+          </div>
+          <div class="hours-row" id="hours-dinner">
+            <span class="hours-label">Dinner</span>
+            <span class="hours-value">Tues &ndash; Sat, 4:00pm &ndash; 9:00pm<br><span class="hours-note">Last seating 8:45pm</span></span>
+          </div>
+          <div class="hours-row" id="hours-happyhour">
+            <span class="hours-label">Happy Hour</span>
+            <span class="hours-value">Tues &ndash; Fri, 3:00pm &ndash; 5:00pm<br><span class="hours-note">Starts May 5</span></span>
+          </div>
+          <div class="hours-row">
+            <span class="hours-label">Closed</span>
+            <span class="hours-value">Sunday &amp; Monday</span>
+          </div>
+        </div>
+        <p class="visit__phone"><a href="tel:+15038508915">(503) 850-8915</a></p>
+        <p class="visit__address">
+          828 SW 2nd Avenue<br>
+          Portland, OR 97204
+        </p>
+        <p class="visit__address-note">Corner of SW 2nd and SW Taylor, downtown Portland.</p>
+        <p class="visit__parking"><strong>Parking:</strong> World Trade Center Parking at 56 SW Taylor, or SmartPark at 818 SW 4th Ave.</p>
+        <p class="visit__transit"><strong>MAX:</strong> Red and Blue Lines. Morrison/SW 3rd Ave westbound, or Yamhill District eastbound.</p>
+      </div>
+      <div class="visit__map reveal reveal--photo">
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.3!2d-122.6731!3d45.5224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54950a03d7bc63b7%3A0x3b3b3b3b3b3b3b3b!2s828%20SW%202nd%20Ave%2C%20Portland%2C%20OR%2097204!5e0!3m2!1sen!2sus!4v1"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Q Restaurant and Bar location at 828 SW 2nd Avenue Portland Oregon"
+          ></iframe>
+        </div>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=828+SW+2nd+Avenue+Portland+OR+97204" class="visit__directions" target="_blank" rel="noopener">Get Directions &rarr;</a>
+        <div class="visit__ctas">
+          <a href="https://www.exploretock.com/q-portland" class="btn btn--sage" target="_blank" rel="noopener">Reserve on Tock</a>
+          <a href="tel:+15038508915" class="btn btn--ghost-sage">Call (503) 850-8915</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <a href="#hero" aria-label="Q Restaurant and Bar home">
+        <img src="assets/logo.png" alt="Q Restaurant &amp; Bar" class="footer__logo">
+      </a>
+      <p class="footer__tagline">Farm to table. From scratch. Globally inspired.</p>
+    </div>
+    <div class="footer__hours">
+      <p class="footer__col-label">Hours</p>
+      <p>Lunch Tues-Fri 11:30am-4pm</p>
+      <p>Dinner Tues-Sat 4-9pm</p>
+      <p>Happy Hour Tues-Fri 3-5pm</p>
+    </div>
+    <div class="footer__links-col">
+      <p class="footer__col-label">Explore</p>
+      <ul role="list">
+        <li><a href="#menu">Dinner Menu</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#visit">Contact</a></li>
+        <li><a href="#events">Gift Cards</a></li>
+      </ul>
+    </div>
+    <div class="footer__social">
+      <p class="footer__col-label">Follow</p>
+      <ul role="list">
+        <li><a href="https://www.facebook.com/qportland" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/qrestaurantpdx" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://twitter.com/qportlandpdx" target="_blank" rel="noopener">X / Twitter</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>&copy; 2026 Q Restaurant &amp; Bar</span>
+    <span>Site by <a href="https://neonframewebdesign.com" target="_blank" rel="noopener">NeonFrame Web Design</a></span>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Photo viewer" hidden>
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close photo viewer">&times;</button>
+  <button class="lightbox__prev" id="lightboxPrev" aria-label="Previous photo">&#8592;</button>
+  <button class="lightbox__next" id="lightboxNext" aria-label="Next photo">&#8594;</button>
+  <div class="lightbox__img-wrap">
+    <img src="" alt="" id="lightboxImg">
+  </div>
+</div>
+
+<script src="main.js" defer></script>
+</body>
+</html>
